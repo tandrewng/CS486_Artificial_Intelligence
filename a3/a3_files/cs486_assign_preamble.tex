@@ -1,0 +1,92 @@
+\fontfamily{lmss}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{color}
+
+\usepackage{xcolor}
+
+\usepackage{tikz}
+\usetikzlibrary{graphs}
+\usetikzlibrary{arrows.meta,shapes,shapes.geometric}
+\usetikzlibrary{positioning, quotes}
+
+\tikzset{
+  % Two node styles for game trees: solid and hollow
+  solid node/.style={circle,draw,inner sep=1.2,fill=black},
+  hollow node/.style={circle,draw,inner sep=1.2},
+  % styles for long branch labels
+  left label/.style={above left,midway},
+  right label/.style={above right,midway}
+}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+\usepackage{geometry}
+\geometry{
+  top=1in,            % <-- you want to adjust this
+  bottom=1in,
+  left=1in,
+  right=1in,
+  headheight=3ex,       % <-- and this
+  headsep=4ex,          % <-- and this
+}
+
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\footrulewidth}{0.4pt}
+\lhead{CS 486/686}
+\rfoot{Page \thepage\ of \pageref{LastPage}}
+
+\setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}%
+
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable}
+\newenvironment{markscheme}
+{
+    \renewcommand{\parskip}{\baselineskip}
+    \begin{tcolorbox}[
+        colback=blue!10,
+        colframe=blue!10,
+        sharp corners,
+        breakable
+    ]
+    \textbf{Marking Scheme:}
+}
+{
+    \end{tcolorbox}
+}
+
+\newenvironment{sol}[1]{
+\color{blue}
+	{\bf Solution:}
+}{
+}
+
+\newenvironment{problem}
+{
+    \begin{tcolorbox}[
+        colback=green!15,
+        colframe=green!15,
+        sharp corners,
+        breakable
+    ]
+    \setlength{\parskip}{1em}
+    \textbf{Problem:}
+}
+{
+    \end{tcolorbox}
+}

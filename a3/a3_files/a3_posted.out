@@ -1,0 +1,9 @@
+\BOOKMARK [1][-]{section.1}{Locating\040the\040Robot\040by\040VEA\040\(24\040marks\)}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Showing\040the\040execution\040steps\040of\040VEA}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Locating\040the\040Robot\040via\040an\040HMM\040\(55\040marks\)}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{The\040Forward-Backward\040Algorithm}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{Modeling\040the\040umbrella,\040robot,\040or\040another\040environment}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Modeling\040states}{subsection.2.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Modeling\040observation\040probabilities}{subsection.2.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Modeling\040transition\040probabilities}{subsection.2.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.2.4}{The\040Umbrella\040Environment}{subsection.2.2}% 9
